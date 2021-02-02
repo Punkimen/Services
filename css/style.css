@@ -286,6 +286,7 @@ input:focus {
   background: #fff;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
+  margin-right: 20px;
 }
 
 .page__asside-head {
@@ -403,12 +404,12 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15px;
 }
 
 .asside-accodion__content-value input {
   max-width: 90px;
   width: 100%;
+  margin: 0 7px;
 }
 
 .asside-accodion__content-value .value-unit {
@@ -432,18 +433,19 @@ input:focus {
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 0 15px;
 }
 
 .footer__wrapper-item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 15px;
 }
 
 .footer__wrapper-item_form {
   max-width: 330px;
   width: 100%;
+  margin-right: 0;
 }
 
 .footer-copy {
@@ -462,7 +464,6 @@ input:focus {
 .footer-form__form {
   display: flex;
   justify-content: space-between;
-  gap: 0 15px;
 }
 
 .footer-form__inp {
@@ -471,6 +472,7 @@ input:focus {
   background: transparent;
   border-color: #fff;
   color: #fff;
+  margin-right: 15px;
 }
 
 .header {
@@ -789,7 +791,6 @@ input:focus {
 .page__wrapper {
   display: flex;
   align-items: flex-start;
-  gap: 0 20px;
 }
 
 .page__content {
@@ -1067,11 +1068,14 @@ input:focus {
   height: calc(100% - 50px);
   display: flex;
   justify-content: space-between;
-  gap: 0 15px;
 }
 
 .result-body__column {
   flex: 0 1 auto;
+}
+
+.result-body__column_left {
+  margin-right: 15px;
 }
 
 .column-wrapper {
@@ -1291,10 +1295,11 @@ input:focus {
 .page__tags-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  margin: -5px;
 }
 
 .page__tags-item {
+  margin: 5px;
   padding: 6px 2px 7px 2px;
   max-width: 125px;
   width: 100%;
@@ -1403,7 +1408,6 @@ input:focus {
 .form__wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 0 30px;
   padding: 60px 35px;
   background: #FEFEFF;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
@@ -1416,6 +1420,11 @@ input:focus {
 
 .form__wrapper-col {
   flex: 0 1 100%;
+  margin-right: 30px;
+}
+
+.form__wrapper-col:last-child {
+  margin-right: 0;
 }
 
 .form__wrapper-item:last-child {
@@ -1435,7 +1444,6 @@ input:focus {
 
 .form__wrapper-item_flex {
   display: flex;
-  gap: 0 20px;
 }
 
 .form__wrapper-item_flex .form__wrapper-inp {
@@ -1446,6 +1454,7 @@ input:focus {
 .form__wrapper-item_flex .form__wrapper-inp_first {
   max-width: 200px;
   width: 100%;
+  margin-right: 20px;
 }
 
 .form__wrapper-inp label {
@@ -1670,7 +1679,6 @@ input:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0 15px;
   padding-right: 15px;
 }
 
@@ -1960,7 +1968,6 @@ input:focus {
 
 .allBlogs__wrapper-item {
   display: flex;
-  gap: 0 40px;
   background: #FEFEFF;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
@@ -1975,6 +1982,7 @@ input:focus {
   flex: 0 1 360px;
   max-width: 360px;
   width: 100%;
+  margin-right: 40px;
 }
 
 .allBlogs__wrapper-img img {
@@ -2134,6 +2142,7 @@ input:focus {
 
   .form__wrapper-col {
     margin-bottom: 60px;
+    margin-right: 0;
   }
 
   .form__wrapper-col:last-child {
@@ -2184,8 +2193,11 @@ input:focus {
   }
 
   .allBlogs__wrapper-item {
-    gap: 0 20px;
     margin-bottom: 20px;
+  }
+
+  .allBlogs__wrapper-img {
+    margin-right: 25px;
   }
 
   .allBlogs__wrapper-content {
@@ -2286,6 +2298,7 @@ input:focus {
 
   .result-body__column_left {
     margin-bottom: 15px;
+    margin-right: 0;
   }
 
   .result-body__column_right .column-wrapper {
@@ -2389,10 +2402,12 @@ input:focus {
 
   .creditCards__wrapper-item .creditCards__previe-info_mobile {
     display: block;
+    margin-left: 15px;
   }
 
   .creditCards__wrapper-item .application__previe-info_mobile {
     display: block;
+    margin-left: 15px;
   }
 
   .creditCards__wrapper-item .result-content__info-previe {
@@ -2400,7 +2415,6 @@ input:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0 15px;
     margin: 0 0 20px 0;
   }
 
@@ -2422,6 +2436,7 @@ input:focus {
 
   .application__wrapper-item .application__previe-info_mobile {
     display: block;
+    margin-left: 10px;
   }
 
   .application__wrapper-item .result-content__info-previe {
@@ -2504,6 +2519,8 @@ input:focus {
 
   .form__wrapper-item_mobile {
     display: block;
+    margin-bottom: 20px;
+    max-width: 300px;
   }
 
   .form__wrapper-item_mobile .form__wrapper-radio {
@@ -2561,10 +2578,6 @@ input:focus {
 
   .asside-body__section {
     padding: 0 10px;
-  }
-
-  .asside-accodion__content-value {
-    gap: 7px;
   }
 
   .asside-accodion__content-value span {
