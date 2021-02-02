@@ -123,11 +123,11 @@ li {
   -o-transform: translate(-50%, -50%);
 }
 
-input:checked ~ .checkbox__indicator::before {
+input:checked~.checkbox__indicator::before {
   display: block;
 }
 
-input:hover ~ .checkbox__indicator {
+input:hover~.checkbox__indicator {
   border-color: #a4a4a4;
 }
 
@@ -271,11 +271,11 @@ input:focus {
   -o-transform: translate(-50%, -50%);
 }
 
-.radio input:checked ~ .radio__indicator::before {
+.radio input:checked~.radio__indicator::before {
   display: block;
 }
 
-.radio input:hover ~ .radio__indicator {
+.radio input:hover~.radio__indicator {
   border-color: #a4a4a4;
 }
 
@@ -381,11 +381,11 @@ input:focus {
   align-items: flex-start;
 }
 
-.asside-accodion__content-item + .asside-accodion__content-item {
+.asside-accodion__content-item+.asside-accodion__content-item {
   margin-top: 15px;
 }
 
-.asside-accodion + .asside-accodion {
+.asside-accodion+.asside-accodion {
   margin-top: 22px;
 }
 
@@ -517,7 +517,7 @@ input:focus {
   color: #bbbbbb;
 }
 
-.header__nav-item + .header__nav-item {
+.header__nav-item+.header__nav-item {
   margin-left: 35px;
 }
 
@@ -651,7 +651,7 @@ input:focus {
   cursor: pointer;
 }
 
-.header-right__setting span + span {
+.header-right__setting span+span {
   margin-top: 3px;
 }
 
@@ -1092,7 +1092,7 @@ input:focus {
   color: #78808A;
 }
 
-.column-wrapper__info-list li + li {
+.column-wrapper__info-list li+li {
   margin-top: 5px;
 }
 
@@ -1101,7 +1101,7 @@ input:focus {
   align-items: center;
 }
 
-.column-wrapper__obtaining-links a + a {
+.column-wrapper__obtaining-links a+a {
   margin-left: 15px;
 }
 
@@ -1239,7 +1239,7 @@ input:focus {
   color: #FFB946;
 }
 
-.pagination__item + .pagination__item {
+.pagination__item+.pagination__item {
   margin-left: 15px;
 }
 
@@ -1343,7 +1343,7 @@ input:focus {
   padding: 30px 40px 30px 30px;
 }
 
-.about__wrapper-content p + p {
+.about__wrapper-content p+p {
   margin-top: 30px;
 }
 
@@ -2259,7 +2259,7 @@ input:focus {
     margin-bottom: 15px;
   }
 
-  .header__nav-item + .header__nav-item {
+  .header__nav-item+.header__nav-item {
     margin-left: 20px;
   }
 
@@ -2610,7 +2610,7 @@ input:focus {
     justify-content: space-between;
   }
 
-  .header__nav-item + .header__nav-item {
+  .header__nav-item+.header__nav-item {
     margin-left: 0;
   }
 
@@ -2664,7 +2664,7 @@ input:focus {
     font-size: 14px;
   }
 
-  .about__wrapper-content p + p {
+  .about__wrapper-content p+p {
     margin-top: 15px;
   }
 
